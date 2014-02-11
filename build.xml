@@ -1,4 +1,4 @@
-<project name="testjenkin" default="build">
+<project name="skeleton" default="build">
 <target name="build" depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit"/>
 <target name="build-parallel" depends="prepare,lint,tools-parallel,phpunit"/>
 <target name="tools-parallel" description="Run tools in parallel">
